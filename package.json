@@ -2,7 +2,7 @@
   "name": "binarychopjavascript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "../src/main.js",
   "scripts": {
     "test": "mocha --watch --compilers js:babel-register || exit 0"
   },

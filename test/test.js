@@ -1,12 +1,6 @@
 import { expect } from 'chai';
 import { binaryChop } from '../src/main';
 
-describe("Mocha and Chai", () => {
-    it("should be working", () => {
-        expect(true).to.be.true;
-    });
-});
-
 describe("Binary Chop function", () => {
     describe("Error Handling", () => {
         it("should return -1 for empty array", () => {
